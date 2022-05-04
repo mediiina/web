@@ -1,0 +1,57 @@
+.Button {
+    text-align: center;
+  }
+  
+  .Button-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .Button-logo {
+      animation: Button-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .Button-header {
+    background-image: url('https://wallpaperaccess.com/full/3677117.jpg');
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+    text-shadow: 1px 3px white;
+    box-shadow: 1px 10px 20px white;
+  }
+  
+  .Button-link {
+    color: black;
+  }
+  
+  @keyframes Button-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .Github-header {
+    min-height: 200vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+    text-shadow: 1px 3px white;
+    box-shadow: 1px 10px 20px white;
+  }
+  
+  .Github-link {
+    color: black;
+  }
+  
